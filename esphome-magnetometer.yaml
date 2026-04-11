@@ -21,8 +21,10 @@ substitutions:
   prefix_name: ''
   prefix_id: ''
 
-  qmc5883l_update_interval: '5ms'
-  qmc5883l_oversampling: '64x'
+  #qmc5883l_update_interval: '5ms'
+  qmc5883l_update_interval: '50ms'
+  #qmc5883l_oversampling: '64x'
+  qmc5883l_oversampling: '8x'
 
   volume_per_half_rotation_initial_value: '0.01008156'
   calibration_minimal_axis_range_initial_value: '20'
