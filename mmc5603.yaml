@@ -1,7 +1,8 @@
 ---
 logger:
   logs:
-    mmc5603: INFO
+    #mmc5603: INFO
+    mmc5603: WARN
 number:
   - id: !remove ${prefix_id}temperature_offset
 sensor:
