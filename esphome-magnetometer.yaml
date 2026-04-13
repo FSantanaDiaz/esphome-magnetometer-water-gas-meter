@@ -64,9 +64,9 @@ esphome:
       - lambda: App.set_loop_interval(0);
 
 logger:
-  level: INFO
+  level: WARN
   logs:
-    qmc5883l: INFO
+    qmc5883l: WARN
     
 api:
   services:
